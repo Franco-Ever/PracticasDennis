@@ -2,13 +2,10 @@
 Codigo Dom
 */
 
-//Colores
-//--Oscuro
 var fondoOscuro = "#1a1b1d";
 var fondoPanelOscuro = "#23242a";
 var fondoBotonOscuro = "#31333c"
 var textoOscuroA = "#F2F2F2";
-//--Claro
 var fondoClaro = "#F2F2F2";
 var fondoPanelClaro = "#ffffff";
 var fondoBotonClaro = "#ffffff";
@@ -18,9 +15,8 @@ var verde = " #3DD990";
 var plomo = "#ccc";
 var plomoDark = "#3E403F";
 var azulDark = "#5C82F2";
-//--sombra
 var sombra = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
-//Fin colores
+
 
 //Variables
 var oscuro = false;
@@ -92,7 +88,7 @@ function ModoOscuro(){
         btnOscuro.innerHTML = "Activar el modo oscuro";
     }
 }
-//Fin Cambio 2
+
 
 //Cambio 3 Animar Buscador
 function AnimarBuscador() {
@@ -108,7 +104,7 @@ function AnimarBuscador() {
         btnBuscador.innerHTML = "Animar Buscador";
     }
 }
-//Fin Cambio 3
+
 
 //Cambio 4 Cambiar fondo
 function FullColor() {
@@ -149,9 +145,9 @@ function Creditos() {
             "\n\nAcabas de utilizar una funcion de BOM...");
     }
 }
-//Fin Cambio 1
 
-//Cambio 5 Reloj
+
+//Cambio 2 Reloj
 var reloj = setInterval(miReloj, 1000);
 var relojActivo = false;
 
@@ -175,7 +171,7 @@ function MostrarReloj() {
         relojActivo = false;
     }
 }
-//fin Cambio 5
+
 
 //Cambio 6 Pantalla completa
 var pantalla = document.documentElement;
@@ -195,7 +191,7 @@ function PantallaCompleta() {
         "\nPara salir del Modo Pantalla Completa; solo debes presionar la tecla escape..."
       );
 }
-//Fin Cambio 6
+
 
 //Cambio 7 Texto animado
 var txt = 'El texto que ahora puedes ver con la presente animacion es posible nuevamente con BOM implementado con JavaScript, y aun que parece sencillo es mas complicado de realizar. Cualquier duda consultar con Dennis que es el unico responsable...';
